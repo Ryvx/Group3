@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url("/assets/Layer 7.png");
+}
+.main {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 12;
+  background-color: aqua;
+}
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 12;
+  grid-row-end: 13;
+  background-color: rgb(105, 201, 15);
+}
