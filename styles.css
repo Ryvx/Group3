@@ -1,28 +1,50 @@
-.container {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="It's a website for a bicycle company, which is called velo"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Velo|Since1926</title>
+  </head>
+  <body class="container">
+    <div class="header">
+      <section class="navigation">
+        <nav>
+          <ul>
+            <li>About Us</li>
+            <li>Work</li>
+            <li><img src="assets/Logo.png"/></li>
+            <li>Shop</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </section>
+      
+    </div>
+      <div class="main">
+        <section class="1"></section>
+        <section class="2"></section>
+        <section class="3"></section>
+        <section class="4"></section>
+        <section class="5"></section>
+        <section class="6"></section>
+        <section class="7"></section>
+        <section class="8"></section>
+        <section class="9"></section>
+        <section class="10"></section>
+        <section class="11"></section>
+        <section class="12"></section>
+        <section class="13"></section>
+        <section class="form"></section>
+      </div>
+      <div class="footer">
 
-.header {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background-image: url("/assets/Layer 7.png");
-}
-.main {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 12;
-  background-color: aqua;
-}
-.footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 12;
-  grid-row-end: 13;
-  background-color: rgb(105, 201, 15);
-}
+      </div>
+    </div>
+  </body>
+</html>
