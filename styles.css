@@ -16,13 +16,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.navigation {
-}
-.navigation li {
-  list-style: none;
-  display: inline-block;
-  padding: 0px, 40px;
-}
 
 .main {
   grid-column-start: 1;
@@ -39,4 +32,19 @@
   grid-row-start: 12;
   grid-row-end: 13;
   background-color: rgb(105, 201, 15);
+}
+
+.navigation {
+}
+.navigation nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navigation nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.navigation img {
+  height: 50px;
 }
