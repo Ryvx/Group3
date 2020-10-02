@@ -109,12 +109,21 @@ h4 {
   height: 600px;
   flex-basis:33.33%;
   background: #c87171;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .col-2 {
   height: 600px;
   flex-basis:66.66%;
   background: #CCC;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.col-2 img {
 }
 
 .circles {
