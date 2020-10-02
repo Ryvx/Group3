@@ -99,6 +99,39 @@ h4 {
   color: #848789;
 }
 
+.arrowbox p {
+  line-height: 1.8rem;
+  font-size: 1rem;
+  hyphens: auto;
+	text-align: justify
+}
+
+.arrowbox {
+  position:relative;
+  margin-bottom: 170px;
+background-color:#f3f3f3;
+height:236px !important;
+width:100% !important;
+}
+.arrowbox:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #f3f3f3;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+
+.arrowbox hr {
+  width:50px;
+  margin-top:30px;
+}
+
 .box {
   display: flex;
   align-items: center;
@@ -108,7 +141,6 @@ h4 {
 .col-1 {
   height: 600px;
   flex-basis:33.33%;
-  background: #c87171;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -121,9 +153,6 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.col-2 img {
 }
 
 .circles {
