@@ -109,7 +109,7 @@ h4 {
 .arrowbox {
   position:relative;
   margin-bottom: 170px;
-background-color:#f3f3f3;
+background-color:#FFF;
 height:236px !important;
 width:100% !important;
 }
@@ -122,7 +122,7 @@ width:100% !important;
     margin: 0 auto;
     width: 0;
     height: 0;
-    border-top: solid 50px #f3f3f3;
+    border-top: solid 50px #FFF;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
