@@ -108,9 +108,9 @@ h4 {
 
 .arrowbox {
   position:relative;
-  margin-bottom: 170px;
+  margin-bottom: 190px;
 background-color:#FFF;
-height:236px !important;
+height:205px !important;
 width:100% !important;
 }
 .arrowbox:after {
@@ -156,12 +156,13 @@ width:100% !important;
 }
 
 .circles {
+  margin: 90px 0 50px 0;
   display: flex;
   justify-content: center;
 }
 
 .circle {
-  margin: 50px 5px;
+  margin:0 5px;
   background-color:#bbb;
   border:1px solid #bbb;
   height:10px;
@@ -172,7 +173,7 @@ width:100% !important;
 }
 
 .circle_empty {
-  margin: 50px 5px;
+  margin:0 5px;
   background-color:#F3F3F3;
   border:1px solid #bbb;
   height:10px;
