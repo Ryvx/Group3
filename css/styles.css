@@ -85,6 +85,14 @@ h1, h3 {
   color: #353738;
 }
 
+h4 {
+  margin: 20px 0 30px 0;
+  font-size: 1.50rem;
+  color: #848789;
+  font-style:italic;
+  font-weight: normal;
+}
+
 .textbox p {
   line-height: 2.1rem;
   font-size: 1.1rem;
@@ -158,19 +166,20 @@ h1, h3 {
 }
 
 .signup input {
+  width: 340px;
   margin-left:10px;
   padding: 20px 30px;
-  color: #929292;
+  color: #c6c6c6;
   border:1px solid #d3d7d9;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.05em;
   font-size: 1.1rem;
   background-color:#fff;
-  font-style:italic
+  font-style:italic;
 }
 
 .signup button {
   margin-left:10px;
-  padding: 20px 30px;
+  padding: 20px 45px;
   color: #FFF;
   border:1px solid #64c29e;
   background-color:#64c29e;
@@ -180,6 +189,28 @@ h1, h3 {
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   height: 250px;
   background-color: #f7f7f7;
+}
+
+.social img {
+  margin: 0 5px;
+}
+
+.footer {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-style:italic;
+}
+
+.footer b {
+  font-style:normal;
+}
+
+.credits img {
+  margin: 0 5px;
+  vertical-align:middle;
 }
